@@ -109,7 +109,7 @@ if pet_id_input:
         
     else:
         # 查无此狗时的错误提示
-        st.error("❌ 数据库中未查询到该基因序列号，请核对后重试或确认是否为伪造吊牌。")import streamlit as st
+        st.error("❌ 数据库中未查询到该基因序列号，请核对后重试或确认是否为伪造吊牌。")
 import pandas as pd
 import qrcode
 from PIL import Image
