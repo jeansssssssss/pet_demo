@@ -32,7 +32,7 @@ df_mock_db = pd.DataFrame(data)
 df_mock_db.set_index("宠物ID", inplace=True)
 
 # 4. 页面主视觉：居中大标题
-st.markdown("<h3 style='text-align: center; color: #1E3A8A;'>🇨🇳 中国检验检疫</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center; color: #1E3A8A;'>中国检验检疫</h3>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; margin-bottom: 20px;'>宠物专属数字基因身份证</h2>", unsafe_allow_html=True)
 
 # 5. 交互区：模拟扫码与手动输入
